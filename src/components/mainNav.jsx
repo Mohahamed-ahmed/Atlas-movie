@@ -93,7 +93,7 @@ function MainNav() {
     <div className={`${classes.header} ${scrolled ? classes.scrolled : ''}`}>
       <header className={classes['header-container']}>
         <nav>
-          <p className={classes.logo}>Netflix</p>
+          <p className={classes.logo}>Atlas</p>
           {links}
         </nav>
         <div className={classes.right}>
