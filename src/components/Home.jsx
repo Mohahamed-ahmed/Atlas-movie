@@ -10,7 +10,6 @@ function Home() {
   return (
     <div>
       <div className={classes.container}>
-        <p className={classes.text}>hello</p>
         <img src={image} className={classes.image}></img>
       </div>
       <MoviesSection></MoviesSection>

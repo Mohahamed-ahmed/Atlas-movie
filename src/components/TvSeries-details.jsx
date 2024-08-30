@@ -104,7 +104,7 @@ function TvSeriesDetails({ series }) {
               </p>
             ))}
           </p>
-          <p>{series.overview}</p>
+          <p className={classes.overview}>{series.overview}</p>
         </div>
       </div>
       <CastSeries seriesId={series.id}></CastSeries>
