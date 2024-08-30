@@ -1,0 +1,59 @@
+.parent{
+    position: relative;
+}
+.parent .overlay{
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    top: -150px;
+    left: 0;
+    background-color: rgba(0 0 0 / 60%);
+    z-index: 100;
+}
+.actor-details-container{
+    /* min-height: calc(100vh - 80px); */
+    min-height:100vh ;
+    margin-top: 8rem;
+}
+.actor-details-container .profile img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+.actor-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.actor-container .poster{
+    width: 30%;
+    margin-left: 20px;
+    z-index: 101;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actor-details-container .poster img{
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.actor-details-container .details{
+    flex: 1;
+    margin-right: 20px;
+    z-index: 101;
+}
+.actor-details-container .details p{
+    color: white;
+}
+.actor-details-container .details p:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+

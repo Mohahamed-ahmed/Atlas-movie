@@ -1,0 +1,70 @@
+.reviews-section-container{
+    padding-top: 60px;
+    margin-left: 30px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 101;
+}
+.reviews-section-container h2{
+    color: red;
+}
+.reviews-container{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+    gap: 30px; */
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.reviews-container::-webkit-scrollbar{
+    display: none;
+}
+.reviews-container .box{
+    background-color: #00000094;
+    overflow: hidden;
+    border-radius: 30px;
+    /* max-width: 300px;
+    width: 300px; */
+    max-width: 350px;
+    min-width: 300px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 10%);
+    height: 220px;
+    position: relative; 
+}
+.reviews-container .box img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.reviews-container .text{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.reviews-container .text .content{
+    margin-left: 0;
+    color: white;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    margin: 0;
+    font-size: 14px;
+    line-height: 18.6px;
+}
+.reviews-container .text .username{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-weight: bold;
+    color: white;
+}
+.reviews-container .text .rate{
+    position: absolute;
+    bottom: 0;
+    font-weight: 100;
+    color: white;
+}

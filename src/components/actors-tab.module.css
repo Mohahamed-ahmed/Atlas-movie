@@ -1,0 +1,45 @@
+.father{
+    padding-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.father h2{
+    color: red;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(200px,1fr));
+    gap: 30px;
+}
+.image{
+    width: 200px;
+    height: 250px;
+}
+.container .box{
+    background-color: transparent;
+    overflow: hidden;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 10%);
+    cursor: pointer; 
+    min-width: 220px   
+}
+.container .box img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.container .text p{
+    font-size: 14px;
+    color: white;
+    margin-left: 0;
+    font-weight: 600;
+}
+.father .buttons{
+    text-align: center;
+    padding: 3rem;
+}
+.father .buttons .next{
+    margin-left: 5px;
+}
+

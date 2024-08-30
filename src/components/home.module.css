@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+.text{
+    color: red;
+    font-size: 20px;
+}
+.image{
+    position: absolute;
+    width: 100vw;
+    height: 180vh;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
